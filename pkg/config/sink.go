@@ -12,7 +12,7 @@ type Sink struct {
 	// Pub/Sub
 	Project string `json:"project,omitempty"`
 	// Kafka
-	Brokers []string `json:"kakfaBrokers,omitempty"`
+	Brokers []string `json:"kafkaBrokers,omitempty"`
 	// HTTP and API
 	Url    string `json:"url,omitempty"`
 	ApiKey string `json:"-"`
